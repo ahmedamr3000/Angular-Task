@@ -61,46 +61,49 @@ Displays a list of employees including:
 
 ---
 
-## 🎁 Bonus Features
+:
 
-### ❌ 1. Not Found Page
+🎁 Bonus Features
+❌ 1. Not Found Page
+404 Page for invalid routes
 
-* 404 Page for invalid routes
+📄 2. Employee Interface
+Used TypeScript interface to define employee data type
 
-### 📄 2. Employee Interface
+⏳ 3. Loading Component
+Spinner shown while data is loading
 
-* Used TypeScript `interface` to define employee data type
+🛡️ 4. Route Guard
+Prevents access to protected routes without login
 
-### ⏳ 3. Loading Component
+📦 5. Lazy Loading
+Applied lazy loading for Login and Home components
 
-* Spinner shown while data is loading
+🧱 6. Angular Material
+Used Material components:
 
-### 🛡️ 4. Route Guard
+Inputs
 
-* Prevents access to protected routes without login
+Buttons
 
-### 📦 5. Lazy Loading
+Snackbar
 
-* Applied lazy loading for `Login` and `Home` components
+Dialogs
 
-### 🧱 6. Angular Material
+Tables & Cards
 
-* Used Material components:
+✅ 7. Advanced Validation
+Password Validation:
 
-  * Inputs
-  * Buttons
-  * Snackbar
-  * Dialogs
-  * Tables
+Min 8 chars, uppercase, lowercase, number, special character
 
-### ✅ 7. Advanced Validation
+Mobile Number Validation:
 
-* **Password Validation:**
+Egyptian phone format only: ^01[0-2,5]{1}[0-9]{8}$
 
-  * Min 8 chars, uppercase, lowercase, number, special character
-* **Mobile Number Validation:**
+📱 8. Login via Mobile Number
+User can login using either email or Egyptian mobile number
 
-  * Egyptian phone format only: `^01[0-2,5]{1}[0-9]{8}$`
 
 ---
 
