@@ -1,0 +1,20 @@
+.red {
+  color: red;
+}
+th.mat-header-cell {
+  background-color: #f5f5f5;
+  font-weight: bold;
+}
+
+.d-flex {
+  display: flex;
+}
+.gap-3 {
+  gap: 1rem;
+}
+.align-items-start {
+  align-items: flex-start;
+}
+.flex-grow-1 {
+  flex-grow: 1;
+}

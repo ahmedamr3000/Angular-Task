@@ -1,0 +1,21 @@
+<div class="filter-container g-5">
+  <mat-form-field class="example-full-width">
+    <mat-label>Filter by name</mat-label>
+    <input
+      matInput
+      placeholder="Ex. ahmed"
+      [(ngModel)]="nameFilter"
+      (ngModelChange)="onFilterChange()"
+    />
+  </mat-form-field>
+
+  <mat-form-field class="example-full-width mx-3 w-25">
+    <mat-label>Filter by email</mat-label>
+    <input
+      matInput
+      placeholder="Ex. ahmed.marwan@example.com	"
+      [(ngModel)]="emailFilter"
+      (ngModelChange)="onFilterChange()"
+    />
+  </mat-form-field>
+</div>
